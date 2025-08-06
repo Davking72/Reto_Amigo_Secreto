@@ -1,3 +1,4 @@
+
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
 
@@ -8,7 +9,7 @@ function agregarAmigo() {
   let nombre = input.value.trim();
 
   if (nombre === "") {
-    alert("Por favor ingresa un nombre válido.");
+    alert("Por favor ingresa un nombre valido.");
     return;
   }
 
@@ -30,7 +31,7 @@ function actualizarLista() {
 
 function sortearAmigo() {
   if (listaDeAmigos.length === 0) {
-    alert("La lista está vacía. Agrega al menos un nombre.");
+    alert("La lista esta vacia. Agrega al menos un nombre.");
     return;
   }
 
@@ -39,3 +40,4 @@ function sortearAmigo() {
 
   document.getElementById("resultado").innerText = "El amigo secreto es: " + nombreSorteado;
 }
+
